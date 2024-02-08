@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styless.css">
+    <title>Painel de Cadastro de Visitantes</title>
+</head>
+
+<body>
+    <div class="card">
+        <div class="col-8 col-md-3 col-xs-8 mx-auto l-form">
+            <form class="form" method="post">
+                <h2 class="tl1">Cadastrar Novo Visitante</h2>
+                <div class="form-group">
+                    <input class="form-groupem" type="text" placeholder="Nome Completo" id="nomeInput">
+                </div>
+                <div class="form-group">
+                    <input class="form-groupsn" type="text" placeholder="RG" id="rgInput">
+                </div>
+                <div class="form-group">
+                    <button type="button" class="button_wrapper" onclick="cadastrarVisitante()">Cadastrar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="col-8 col-md-3 col-xs-8 mx-auto l-form">
+            <form class="form" method="post">
+                <h2 class="tl1">Consultar Visitante</h2>
+                <div class="form-group">
+                    <input class="form-groupem" type="text" placeholder="Nome para Consulta" id="nomeConsultaInput">
+                </div>
+                <div class="form-group">
+                    <button type="button" class="button_wrapper" onclick="consultarVisitante()">Consultar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
