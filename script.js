@@ -5,7 +5,7 @@ function checkCredentials() {
     
     if (email === "recepcao" && password === "teste") {
         
-        window.location.href = "https://www.anfavea.com.br";
+        window.location.href = "https://viniciussantoos.github.io/painel/";
     } else {
         
         alert("Credenciais inválidas. Tente novamente.");
